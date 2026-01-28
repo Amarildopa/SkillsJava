@@ -1,0 +1,6 @@
+com\skillsjava\composition\CompositionDemo.class
+com\skillsjava\composition\ValidatedOrderDecorator.class
+com\skillsjava\composition\InheritedValidatedOrderService.class
+com\skillsjava\composition\OrderService.class
+com\skillsjava\composition\Order.class
+com\skillsjava\composition\SimpleOrderService.class

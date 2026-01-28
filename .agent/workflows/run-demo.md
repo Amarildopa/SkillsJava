@@ -95,4 +95,10 @@ cd fundamentals-monotonic-clock
 mvn compile exec:java -Dexec.mainClass="com.skillsjava.clock.MonotonicClockDemo"
 ```
 
+Example for Composition over Inheritance (Pill #39):
+```bash
+cd fundamentals-composition-over-inheritance
+mvn compile exec:java -Dexec.mainClass="com.skillsjava.composition.CompositionDemo"
+```
+
 

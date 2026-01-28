@@ -1,0 +1,39 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------< com.skillsjava:fundamentals-composition-over-inheritance >------
+[INFO] Building fundamentals-composition-over-inheritance 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ fundamentals-composition-over-inheritance ---
+[INFO] skip non existing resourceDirectory C:\Projetos\SkillsJava\fundamentals-composition-over-inheritance\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ fundamentals-composition-over-inheritance ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- exec:3.1.0:java (default-cli) @ fundamentals-composition-over-inheritance ---
+18:19:23.662 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.CompositionDemo -- === Composition over Inheritance Demo (Pill #39) ===
+
+18:19:23.665 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.CompositionDemo -- --- Scenario 1: Fragile Inheritance ---
+18:19:23.667 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.CompositionDemo -- Invoking save()...
+18:19:23.667 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.InheritedValidatedOrderService -- [VALIDATION] Checking credit for order: ORD-001
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.SimpleOrderService -- [DB] Saving order: ORD-001
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.CompositionDemo -- Invoking saveAll()...
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.SimpleOrderService -- [DB] Batch saving 1 orders...
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] WARN com.skillsjava.composition.CompositionDemo -- BUG: In Scenario 1, saveAll() bypassed validation! (No validation log for ORD-002)
+
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.CompositionDemo -- --- Scenario 2: Robust Decorator (Composition) ---
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.CompositionDemo -- Invoking save()...
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.ValidatedOrderDecorator -- [VALIDATION] Checking credit for order: ORD-001
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.SimpleOrderService -- [DB] Saving order: ORD-001
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.CompositionDemo -- Invoking saveAll()...
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.ValidatedOrderDecorator -- [VALIDATION] Checking credit for order: ORD-003
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.SimpleOrderService -- [DB] Batch saving 1 orders...
+18:19:23.668 [com.skillsjava.composition.CompositionDemo.main()] INFO com.skillsjava.composition.CompositionDemo -- SUCCESS: In Scenario 2, saveAll() forced validation through the interface contract.
+
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.233 s
+[INFO] Finished at: 2026-01-28T18:19:23-03:00
+[INFO] ------------------------------------------------------------------------

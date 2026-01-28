@@ -38,6 +38,7 @@ The following links point to specific best practices that MUST be followed durin
 9.  **[Inheritance Hazards](./rule-inheritance-hazards.md)**: Dangers of inheritance, overridable methods in constructors, and the value of final/sealed classes.
 10. **[Modern Identifiers](./rule-modern-identifiers.md)**: Performance impact of UUIDv4 vs UUIDv7/ULID in databases.
 11. **[Monotonic Clock](./rule-monotonic-clock.md)**: Why `nanoTime()` is superior to `currentTimeMillis()` for measuring duration.
+12. **[Composition over Inheritance](./rule-composition-over-inheritance.md)**: Why inheritance is dangerous for behavior interception and when to use Decorators.
 
 ## Workflow (Antigravity's Operating Procedure)
 1. **Article Consumption**: Extract "Right" vs "Wrong" patterns from the provided article.
