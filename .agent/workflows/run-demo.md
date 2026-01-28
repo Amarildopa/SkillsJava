@@ -89,4 +89,10 @@ cd fundamentals-user-service-showcase
 mvn compile exec:java -Dexec.mainClass="com.skillsjava.userservice.UserServiceDemo"
 ```
 
+Example for Monotonic Clock (Pill #40):
+```bash
+cd fundamentals-monotonic-clock
+mvn compile exec:java -Dexec.mainClass="com.skillsjava.clock.MonotonicClockDemo"
+```
+
 

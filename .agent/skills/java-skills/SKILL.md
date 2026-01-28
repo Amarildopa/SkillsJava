@@ -37,6 +37,7 @@ The following links point to specific best practices that MUST be followed durin
 8.  **[Service Interfaces (No Impl)](./rule-service-interfaces.md)**: Avoiding the XServiceImpl antipattern and following ISP.
 9.  **[Inheritance Hazards](./rule-inheritance-hazards.md)**: Dangers of inheritance, overridable methods in constructors, and the value of final/sealed classes.
 10. **[Modern Identifiers](./rule-modern-identifiers.md)**: Performance impact of UUIDv4 vs UUIDv7/ULID in databases.
+11. **[Monotonic Clock](./rule-monotonic-clock.md)**: Why `nanoTime()` is superior to `currentTimeMillis()` for measuring duration.
 
 ## Workflow (Antigravity's Operating Procedure)
 1. **Article Consumption**: Extract "Right" vs "Wrong" patterns from the provided article.
