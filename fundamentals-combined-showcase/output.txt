@@ -1,0 +1,14 @@
+=== Showcase de Melhores Práticas Combinadas (Java 21) ===
+
+Primeiro Evento registrado: Lançamento do Java 21
+Último Evento registrado: Deep Dive em Collections
+
+--- Linha do Tempo de Eventos (Invertida) ---
+[2026-01-27T11:50:45.563499200-03:00[America/Sao_Paulo]] -> Deep Dive em Collections
+[2026-01-27T10:50:45.563499200-03:00[America/Sao_Paulo]] -> Atualização Spring Boot 3.2
+[2023-09-19T07:00-03:00[America/Sao_Paulo]] -> Lançamento do Java 21
+
+--- Busca e Segurança contra NPE ---
+Encontrado: Lançamento do Java 21
+Evento 'Legacy Java 8' manipulado corretamente (não encontrado).
+Quantidade de eventos filtrados (deve ser 0, não null): 0

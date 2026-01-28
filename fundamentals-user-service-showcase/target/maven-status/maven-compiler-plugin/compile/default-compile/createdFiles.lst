@@ -1,0 +1,6 @@
+com\skillsjava\userservice\UserService.class
+com\skillsjava\userservice\UserServiceDemo.class
+com\skillsjava\userservice\UserRepository.class
+com\skillsjava\userservice\InMemoryUserRepository.class
+com\skillsjava\userservice\UserServiceException.class
+com\skillsjava\userservice\User.class

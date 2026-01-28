@@ -1,0 +1,48 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< com.skillsjava:fundamentals-modern-identifiers >-----------
+[INFO] Building fundamentals-modern-identifiers 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.1.0:java (default-cli) @ fundamentals-modern-identifiers ---
+=== Modern Identifiers Demo ===
+
+--- UUID v4 (Random) ---
+v4: 1fb96cff-91e0-4f53-80f7-529445ade888
+v4: f05f2f78-49c5-42bf-b12b-e9b6f1ffac06
+v4: 18b50229-aed8-4db9-b7e8-7889f0ad6815
+Note: These are completely random. High entropy is bad for B-trees.
+
+--- UUID v7 (Time-Ordered Epoch) ---
+v7: 019c014f-dc17-71cd-b507-4e98545ae975 (Timestamp embedded)
+v7: 019c014f-dc1b-79ea-80f4-6294fadb6d9a (Timestamp embedded)
+v7: 019c014f-dc1b-79ea-80f5-43650e79b0d4 (Timestamp embedded)
+Note: These are sequential. Great for DB index locality.
+
+--- ULID (Monotonic) ---
+ULID: 01KG0MZQ119ZPAPQHGMFMT84YK (26 chars, Base32)
+ULID: 01KG0MZQ12A19HESQ4K84ENF6H (26 chars, Base32)
+ULID: 01KG0MZQ12A19HESQ4K84ENF6J (26 chars, Base32)
+Note: Sortable, URL-friendly, and very readable.
+
+--- Sorting behavior (Simulated timeline) ---
+Generated v7 IDs (Insertion order):
+  019c014f-dc22-7161-817a-710b7b66dfce
+  019c014f-dc22-7161-817b-f78430ca644d
+  019c014f-dc22-7161-817c-dd568bf2ab13
+  019c014f-dc22-7161-817d-a01a1b03d364
+  019c014f-dc22-7161-817e-9a5eedc3530e
+Sorted v7 IDs:
+  019c014f-dc22-7161-817a-710b7b66dfce
+  019c014f-dc22-7161-817b-f78430ca644d
+  019c014f-dc22-7161-817c-dd568bf2ab13
+  019c014f-dc22-7161-817d-a01a1b03d364
+  019c014f-dc22-7161-817e-9a5eedc3530e
+Notice: They are naturally ordered by creation time!
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.598 s
+[INFO] Finished at: 2026-01-27T18:15:36-03:00
+[INFO] ------------------------------------------------------------------------

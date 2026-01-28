@@ -1,0 +1,4 @@
+com\skillsjava\template\AbstractTaxCalculator.class
+com\skillsjava\template\StandardTaxCalculator.class
+com\skillsjava\template\TaxCalculator.class
+com\skillsjava\template\TemplateMethodDemo.class

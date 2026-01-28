@@ -1,0 +1,15 @@
+=== Inheritance Hazards Demo ===
+
+--- Scenario 1: Constructor Pitfall ---
+Caught Expected Error: java.lang.NullPointerException: Cannot invoke "java.time.Instant.toString()" because "this.timestamp" is null
+
+--- Scenario 2: Undocumented Self-Use ---
+Standard Cart total items: 3
+Discount applied (1)
+Discount applied (2)
+Discount applied (3)
+Discount Cart total items: 3
+Notice: If addBatch calls addItem, and addItem is overridden, logic runs multiple times!
+
+--- Scenario 3: Sealed Classes (Modern Java) ---
+Payment type: PixPayment

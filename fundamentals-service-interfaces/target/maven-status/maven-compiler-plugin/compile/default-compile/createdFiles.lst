@@ -1,0 +1,11 @@
+com\skillsjava\interfaces\EmailProvider.class
+com\skillsjava\interfaces\StockValidator.class
+com\skillsjava\interfaces\ServiceInterfaceDemo.class
+com\skillsjava\interfaces\LegacyService.class
+com\skillsjava\interfaces\StandardShippingCalculator.class
+com\skillsjava\interfaces\LegacyServiceImpl.class
+com\skillsjava\interfaces\Order.class
+com\skillsjava\interfaces\ShippingCalculator.class
+com\skillsjava\interfaces\NotificationService.class
+com\skillsjava\interfaces\SmsProvider.class
+com\skillsjava\interfaces\UserService.class

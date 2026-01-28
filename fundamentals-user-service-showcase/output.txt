@@ -1,0 +1,26 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------< com.skillsjava:fundamentals-user-service-showcase >----------
+[INFO] Building fundamentals-user-service-showcase 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- exec:3.1.0:java (default-cli) @ fundamentals-user-service-showcase ---
+=== Best Practices UserService Demo ===
+
+1. Registering user...
+18:19:34.474 [com.skillsjava.userservice.UserServiceDemo.main()] INFO com.skillsjava.userservice.UserService -- Creating new user account for: alice@example.com
+User registered: Alice Smith with ID: 019c0153-7c67-7bdf-bdf2-8bbaa1ab1ec8
+
+2. Attempting login...
+18:19:34.506 [com.skillsjava.userservice.UserServiceDemo.main()] DEBUG com.skillsjava.userservice.UserService -- Login attempt for email: alice@example.com
+Login successful!
+
+3. Finding user by ID...
+Found: Alice Smith (alice@example.com)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.643 s
+[INFO] Finished at: 2026-01-27T18:19:34-03:00
+[INFO] ------------------------------------------------------------------------

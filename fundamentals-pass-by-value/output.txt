@@ -1,0 +1,15 @@
+=== Java Pass-by-Value Demo ===
+
+Before modifyPrimitive: x = 10
+After modifyPrimitive:  x = 10 (Unchanged)
+
+Before modifyState: list = [Original]
+After modifyState:  list = [Original, Modified] (Internal state changed)
+
+Before reassignObject: myList = [Initial]
+After reassignObject:  myList = [Initial, Visible] (Wait, still 'Initial'? Yes!)
+
+Before swap: a=Apple, b=Banana
+After swap:  a=Apple, b=Banana (Swap failed because we only swapped local copies)
+
+Final parameter state modified: [A, Changed]

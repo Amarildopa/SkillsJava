@@ -1,0 +1,9 @@
+=== Encapsulation & Testability Demo ===
+
+Order total: 1200
+Is VIP: true
+Calculated Discount: 84.00
+
+Note: The 'BaseDiscountPolicy' logic was extracted from 
+'DiscountService' to be independently testable without 
+making the service internals public.

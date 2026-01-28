@@ -1,0 +1,8 @@
+=== Constants without Hacks Demo ===
+
+User is NOT eligible (Age must be at least 21).
+Sales Tax Rate: 0.18
+Default Currency: BRL
+Available Currency: USD ($)
+Available Currency: EUR (€)
+Available Currency: BRL (R$)
