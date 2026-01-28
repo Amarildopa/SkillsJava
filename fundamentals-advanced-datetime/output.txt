@@ -1,0 +1,34 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] -----------< com.skillsjava:fundamentals-advanced-datetime >------------
+[INFO] Building fundamentals-advanced-datetime 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- resources:3.3.1:resources (default-resources) @ fundamentals-advanced-datetime ---
+[INFO] skip non existing resourceDirectory C:\Projetos\SkillsJava\fundamentals-advanced-datetime\src\main\resources
+[INFO] 
+[INFO] --- compiler:3.13.0:compile (default-compile) @ fundamentals-advanced-datetime ---
+[INFO] Nothing to compile - all classes are up to date.
+[INFO] 
+[INFO] --- exec:3.1.0:java (default-cli) @ fundamentals-advanced-datetime ---
+18:31:18.789 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo -- === Advanced Date & Time Demo (Pill #38) ===
+
+18:31:18.799 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo -- John McClane's Current Status:
+18:31:18.799 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo --   Current Time (New York):    2026-01-28 16:31:18 America/New_York
+18:31:18.802 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo --   Current Time (Los Angeles): 2026-01-28 13:31:18 America/Los_Angeles
+18:31:18.802 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo --   Target Christmas (LA):      2026-12-25 00:00:00 America/Los_Angeles
+18:31:18.802 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo -- 
+Time remaining until Christmas (Yippee-ki-yay!):
+18:31:18.802 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo --   330 Days, 10 Hours, 28 Minutes, and 41 Seconds
+18:31:18.802 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo -- 
+--- Key Lessons ---
+18:31:18.802 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo -- 1. Duration vs Period: Use Duration for physical time (seconds/nanos). Period is for human calendar units.
+18:31:18.802 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo -- 2. DST Safety: Duration accurately counts seconds even across DST shifts (23h or 25h days).
+18:31:18.803 [com.skillsjava.datetime.AdvancedDateTimeDemo.main()] INFO com.skillsjava.datetime.AdvancedDateTimeDemo -- 3. Timeline Safety: Comparing ZonedDateTimes via isBefore() effectively compares their underlying Instants.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.140 s
+[INFO] Finished at: 2026-01-28T18:31:18-03:00
+[INFO] ------------------------------------------------------------------------

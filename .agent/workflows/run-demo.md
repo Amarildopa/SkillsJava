@@ -101,4 +101,10 @@ cd fundamentals-composition-over-inheritance
 mvn compile exec:java -Dexec.mainClass="com.skillsjava.composition.CompositionDemo"
 ```
 
+Example for Advanced Date & Time (Pill #38):
+```bash
+cd fundamentals-advanced-datetime
+mvn compile exec:java -Dexec.mainClass="com.skillsjava.datetime.AdvancedDateTimeDemo"
+```
+
 
