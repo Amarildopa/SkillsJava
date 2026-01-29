@@ -28,3 +28,6 @@ Encapsulation is a core pillar of OO design. Increasing visibility creates coupl
 
 ## Reference Demo
 See implementation in: `fundamentals-encapsulation-testing/`
+
+---
+**Author:** Wanderlei Souza

@@ -31,3 +31,6 @@ Inheritance is one of the most misused features of OO. It breaks encapsulation b
 
 ## Reference Demo
 See implementation in: `fundamentals-inheritance-hazards/`
+
+---
+**Author:** Wanderlei Souza

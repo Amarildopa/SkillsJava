@@ -1,6 +1,6 @@
 # ☕ SkillsJava - Advanced Agentic Learning Path
 
-Welcome to the **SkillsJava** repository. This is not just a collection of code examples, but a **living knowledge base** designed for **Advanced Agentic Coding**. It combines theoretical best practices (Guardrails) with practical Proof of Concepts (PoCs).
+Welcome to the **SkillsJava** repository. This is not just a collection of code examples, but a **living knowledge base** designed for **Advanced Agentic Coding**. All Java Knowledge Pills (#38 - #43+) and technical guardrails in this repository were authored by **Wanderlei Souza**.
 
 ---
 

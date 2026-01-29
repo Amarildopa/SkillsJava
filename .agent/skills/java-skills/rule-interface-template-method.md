@@ -30,3 +30,6 @@ Implementing interfaces often leads to repetitive code. While Java 8+ introduced
 
 ## Reference Demo
 See implementation in: `fundamentals-interface-template-method/`
+
+---
+**Author:** Wanderlei Souza

@@ -43,3 +43,6 @@ Prefer `List` over raw `Arrays` for better API support and type safety, unless p
 - Use `LinkedHashSet` (SequencedSet) when you need uniqueness AND insertion order.
 - Use `HashMap` for key-value pairs.
 - Use `TreeMap` (SequencedMap) for sorted keys.
+
+---
+**Author:** Wanderlei Souza

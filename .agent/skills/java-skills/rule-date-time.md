@@ -25,3 +25,6 @@ Legacy Java date classes (`java.util.Date`, `Calendar`) are mutable, not thread-
 
 ## Reference Demo
 See implementation in: `fundamentos-datetime/`
+
+---
+**Author:** Wanderlei Souza

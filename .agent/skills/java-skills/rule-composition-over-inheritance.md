@@ -70,3 +70,6 @@ class ValidatedOrderService implements OrderService {
 
 ## Reference Demo
 See implementation in: `fundamentals-composition-over-inheritance/`
+
+---
+**Author:** Wanderlei Souza

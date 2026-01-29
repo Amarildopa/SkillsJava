@@ -30,3 +30,6 @@ Handling dates across different time zones is a frequent source of bugs. Relying
 
 ## Reference Demo
 See implementation in: `fundamentals-advanced-datetime/`
+
+---
+**Author:** Wanderlei Souza

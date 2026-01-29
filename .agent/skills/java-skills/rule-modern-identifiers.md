@@ -26,3 +26,6 @@ Choosing the right identifier for database persistence is critical for performan
 
 ## Reference Demo
 See implementation in: `fundamentals-modern-identifiers/`
+
+---
+**Author:** Wanderlei Souza

@@ -47,3 +47,6 @@ double durationMillis = durationNanos / 1_000_000.0;
 
 ## Reference Demo
 See implementation in: `fundamentals-monotonic-clock/`
+
+---
+**Author:** Wanderlei Souza

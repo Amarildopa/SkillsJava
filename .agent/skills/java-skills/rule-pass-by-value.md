@@ -29,3 +29,6 @@ A common misconception in Java is that objects are passed by reference. In reali
 
 ## Reference Demo
 See implementation in: `fundamentals-pass-by-value/`
+
+---
+**Author:** Wanderlei Souza

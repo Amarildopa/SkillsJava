@@ -3,9 +3,9 @@ name: Java-Skills
 description: Best practices guardrails and modern Java patterns extracted from technical articles.
 ---
 
-# Java-Skills
+# Java-Skills (By Wanderlei Souza)
 
-This document defines the process for creating and organizing Java learning in the `SkillsJava` repository, acting as a mandatory guardrail for all development.
+This document defines the process for creating and organizing Java learning in the `SkillsJava` repository, based on the knowledge pills authored by **Wanderlei Souza**. It acts as a mandatory guardrail for all development.
 
 ## Objective
 Transform theoretical articles into practical mini-projects focused on one "Skill" at a time, establishing clear coding standards.

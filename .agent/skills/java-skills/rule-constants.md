@@ -37,3 +37,6 @@ Defining constants is a daily task in programming, but it's often done incorrect
 
 ## Reference Demo
 See implementation in: `fundamentals-constants/`
+
+---
+**Author:** Wanderlei Souza

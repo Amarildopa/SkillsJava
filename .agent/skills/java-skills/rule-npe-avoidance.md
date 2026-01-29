@@ -27,3 +27,6 @@ NullPointerExceptions (NPEs) are one of the most common issues in Java. Modern J
 
 ## Reference Demo
 See implementation in: `fundamentals-npe-avoidance/`
+
+---
+**Author:** Wanderlei Souza

@@ -30,3 +30,6 @@ Interfaces are contracts defining behavior, not architectural bureaucracy. A com
 
 ## Reference Demo
 See implementation in: `fundamentals-service-interfaces/`
+
+---
+**Author:** Wanderlei Souza
